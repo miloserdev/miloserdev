@@ -31,7 +31,8 @@ Senior C/C++ engineer with 5+ years of commercial experience. My focus is high-p
 ## Experience
 
 ### E-FLOPS — Software Engineer
-*Aug 2026 – present · ARM server platforms, virtualization, server firmware*
+
+_Aug 2026 – present · ARM server platforms, virtualization, server firmware_
 
 - Building out an ARM (aarch64) server platform and datacenter: porting system software, building custom Linux kernels.
 - Ported Proxmox to ARM on Debian 13. Custom KVM-enabled kernel plus dependency shims to install it without Proxmox's own kernel.
@@ -41,7 +42,8 @@ Senior C/C++ engineer with 5+ years of commercial experience. My focus is high-p
 - GPU-offload R&D comparing aarch64 against x86 on cost and energy. SIMD compute kernels (AVX on x86, NEON on ARM), Ampere Altra Max 128-core vs EPYC 7742.
 
 ### Ideco — Software Engineer
-*Sep 2025 – Jul 2026 · high-load network stack, real-time traffic moderation*
+
+_Sep 2025 – Jul 2026 · high-load network stack, real-time traffic moderation_
 
 - Developed VPP plugins for L2/L3 traffic: forwarding, VLAN tagging, packet classification.
 - Integrated Suricata IPS into the VPP pipeline (process nodes, session timeouts, flush mechanisms).
@@ -53,13 +55,15 @@ Senior C/C++ engineer with 5+ years of commercial experience. My focus is high-p
 - GDB debugging, code review, and mentoring the team on multithreading and memory.
 
 ### SmartEcoSystem — Software Engineer
-*Jun 2024 – Aug 2025 · part-time (0.5 FTE), subsidiary of NII Mashtab · Linux smartphones and tablets*
+
+_Jun 2024 – Aug 2025 · part-time (0.5 FTE), subsidiary of NII Mashtab · Linux smartphones and tablets_
 
 - Built RootFS and the Linux kernel for the AYYA TrustPhone (Rockchip RK3588, MediaTek MT6771V).
 - R&D at Elvees: ALT Linux (Simply) via Buildroot, Device Tree, and drivers for display, touchpad, fingerprint sensor and charge controller.
 
 ### NII Mashtab — Software Engineer
-*Oct 2023 – Aug 2025 · virtualization platform*
+
+_Oct 2023 – Aug 2025 · virtualization platform_
 
 - Ported the VeiL virtualization product to ARM and RISC-V; adapted it for Elbrus E2K.
 - Modified OpenBMC (Aspeed AST2500) and BIOS firmware.
@@ -69,13 +73,15 @@ Senior C/C++ engineer with 5+ years of commercial experience. My focus is high-p
 - CI/CD pipelines and deployment automation with Ansible.
 
 ### SimbirSoft — Software Engineer
-*May 2024 – May 2025 · contract · Scanfactor, hardware processing and computer vision*
+
+_May 2024 – May 2025 · contract · Scanfactor, hardware processing and computer vision_
 
 - Developed NVIDIA Tegra drivers for the Jetson Nano (PCIe subsystem, Device Tree changes).
 - Team code review (C, Python).
 
 ### RUDN University — Software Engineer
-*Jun 2020 – Aug 2022 · system administration*
+
+_Jun 2020 – Aug 2022 · system administration_
 
 - REST API and backend for a class-schedule monitoring web app (Python).
 - Administered Linux servers for the university learning portal; wrote automation scripts.
@@ -87,16 +93,21 @@ Senior C/C++ engineer with 5+ years of commercial experience. My focus is high-p
 - **RUDN University**, Programming in Computer Systems (programmer technician, 2021)
 
 ## Projects
-
-- **[net_neural_filter](https://github.com/miloserdev/net_neural_filter)**: eBPF/XDP packet filter with a neural-network (perceptron) classifier for adaptive DDoS and anomaly detection. XDP runs in the kernel data path; events reach userspace over a BPF ring buffer, BPF maps inspected with `bpftool`. C, libbpf, Clang/LLVM.
-- **[xec](https://github.com/miloserdev/xec)**: Embedded Controller (EC) utility in C for ST and Nuvoton ECs. Controls LEDs, fan speed, charging and the Wi-Fi/Bluetooth power switch, and watches EC memory for changes.
-- **[mpu6050_userspace](https://github.com/miloserdev/mpu6050_userspace)**: userspace I2C driver for the MPU-6050 IMU on Linux (MilkV Duo), through the Linux i2c subsystem. Written in C.
-- **[sunxi_licheerv](https://github.com/miloserdev/sunxi_licheerv)**: Linux kernel and U-Boot bring-up for the LicheeRV D1 board (Allwinner D1, RISC-V). Kernel/U-Boot forks, an Arch Linux RISC-V SD-card image, display and LED bring-up (ST7789V, WS2812).
-- **[arch_khadas](https://github.com/miloserdev/arch_khadas)**: Arch Linux ARM port for the Khadas VIM4 SBC (aarch64). Bootable BOOT/ROOTFS images over U-Boot.
-- **[copydisk](https://github.com/miloserdev/copydisk)**: command-line tool in C that turns a whole `/dev/diskX` block device into a small sparse image.
-
-**Also:** full-stack tooling: [xcale](https://github.com/miloserdev/xcale) (load-testing panel + agent), [newspaper](https://github.com/miloserdev/newspaper) (Markdown-based news engine), [xross](https://github.com/miloserdev/xross) (Node.js HTTP router).
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/miloserdev/fl0w/raw/master/docs/images/screenshot.png" width="250px">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | [FL0W](https://github.com/miloserdev/fl0w) lets you build automations by dragging **blocks** onto a canvas and wiring their ports together                                    |
+| <img src="https://github.com/miloserdev/newspaper/raw/master/docs/screenshot.png" width="250px">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | [Newspaper](https://github.com/miloserdev/newspaper) — **A file-based news engine.** Point it at a folder of markdown files                                                   |
+| <img src="https://private-user-images.githubusercontent.com/37951044/687437796-c33bd33b-fcd4-41fc-be6c-d39a3b623689.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQxNzI1NjEsIm5iZiI6MTc5NDE3MjI2MSwicGF0aCI6Ii8zNzk1MTA0NC82ODc0Mzc3OTYtYzMzYmQzM2ItZmNkNC00MWZjLWJlNmMtZDM5YTNiNjIzNjg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA4VDIxMTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlMDY4ZjZlNWY0NWEyMDk3MTJhZTU5OTcxOTVkOGJkZTcxNjYzMTYzNTYwMTgxOWE4ZGQwMTI3ODAxYzk3YmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.kgKrTmIkeNeGbX1sqOxCWhzln2fui36d0aeDRFRZQx4" width="250px"> | [xcale](https://github.com/miloserdev/xcale) — A panel for clustered machines testing                                                                                         |
+| **[copydisk](https://github.com/miloserdev/copydisk)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | A "mini slice" of a GPT disk<br>Turns a big disk (e.g. a 256 GB NVMe: EFI + root, ~2 GB used) into a small sparse image file that keeps **all identifiers**                   |
+| **[net_neural_filter](https://github.com/miloserdev/net_neural_filter)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | eBPF/XDP packet filter with a neural-network (perceptron) classifier for adaptive DDoS and anomaly detection. XDP runs in the kernel data path; events reach userspace over a |
+| **[xec](https://github.com/miloserdev/xec)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Embedded Controller (EC) utility in C for ST and Nuvoton ECs. Controls LEDs, fan speed, charging and the Wi-Fi/Bluetooth power switch, and watches EC memory for changes.     |
 
 ## Contact
 
 GitHub: [miloserdev](https://github.com/miloserdev) · Telegram: [@miloserdev](https://t.me/miloserdev)
+
+
+---
+
+
+
