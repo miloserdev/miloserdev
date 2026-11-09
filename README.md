@@ -99,7 +99,6 @@ _Jun 2020 – Aug 2022 · system administration_
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/miloserdev/fl0w/raw/master/docs/images/screenshot.png" width="800px">   | [FL0W](https://github.com/miloserdev/fl0w) lets you build automations by dragging **blocks** onto a canvas and wiring their ports together                                    |
 | <img src="https://github.com/miloserdev/newspaper/raw/master/docs/screenshot.png" width="800px">     | [Newspaper](https://github.com/miloserdev/newspaper) — **A file-based news engine.** Point it at a folder of markdown files                                                   |
-| <img src="https://github.com/miloserdev/xcale/raw/master/webui/public/screenshot.png" width="800px"> | [xcale](https://github.com/miloserdev/xcale) — A panel for clustered machines testing                                                                                         |
 | **[copydisk](https://github.com/miloserdev/copydisk)**                                               | A "mini slice" of a GPT disk<br>Turns a big disk (e.g. a 256 GB NVMe: EFI + root, ~2 GB used) into a small sparse image file that keeps **all identifiers**                   |
 | **[net_neural_filter](https://github.com/miloserdev/net_neural_filter)**                             | eBPF/XDP packet filter with a neural-network (perceptron) classifier for adaptive DDoS and anomaly detection. XDP runs in the kernel data path; events reach userspace over a |
 | **[xec](https://github.com/miloserdev/xec)**                                                         | Embedded Controller (EC) utility in C for ST and Nuvoton ECs. Controls LEDs, fan speed, charging and the Wi-Fi/Bluetooth power switch, and watches EC memory for changes.     |
@@ -107,3 +106,6 @@ _Jun 2020 – Aug 2022 · system administration_
 ## Contact
 
 GitHub: [miloserdev](https://github.com/miloserdev) · Telegram: [@miloserdev](https://t.me/miloserdev)
+
+---
+
