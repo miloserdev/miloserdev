@@ -40,6 +40,8 @@ _Aug 2026 – present · ARM server platforms, virtualization, server firmware_
 - Maintain OpenBMC on in-house boards (Aspeed, mickledore/styhead): isolate downstream patches against each board's upstream base and rebase them onto the target upstream. Rebranded webui-vue.
 - Architecting an ARM hosting/cloud with billing: KVM/LXC, per-tenant virtual networks, self-service vCPU/RAM/disk configurator (Vite + shadcn/ui).
 - GPU-offload R&D comparing aarch64 against x86 on cost and energy. SIMD compute kernels (AVX on x86, NEON on ARM), Ampere Altra Max 128-core vs EPYC 7742.
+- LLM engineering: built a pipeline that ingests coding standards and open-source C and uses local LLMs to extract and cross-check rules into a single reviewed engineering playbook (~33k tokens);
+- Swarm of local LLM agents behind hard gates (strict compilation, ASan/UBSan, coverage, mutation testing, sandbox) with a reader/judge eval harness to measure effect on process and code quality.
 
 ### Ideco — Software Engineer
 
