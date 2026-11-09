@@ -1,0 +1,18 @@
+name: Notify site
+
+on:
+  push:
+    branches: [master]
+    paths: [README.md]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger rebuild of miloser.dev
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${{ secrets.SITE_DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/miloserdev/miloserdev.github.io/dispatches \
+            -d '{"event_type":"readme-updated"}'
