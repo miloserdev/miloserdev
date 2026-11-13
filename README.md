@@ -1,6 +1,6 @@
 # Miloserdev
 
-Senior C engineer · low-level and high-performance network systems
+Senior C · Embedded Linux & Systems Software Engineer | Linux Kernel | eBPF/XDP | Network Data Plane
 
 [GitHub](https://github.com/miloserdev) · [Telegram](https://t.me/miloserdev)
 
