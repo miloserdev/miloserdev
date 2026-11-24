@@ -2,7 +2,7 @@
 
 Senior C · Embedded Linux & Systems Software Engineer | Linux Kernel | eBPF/XDP | Network Data Plane
 
-[GitHub](https://github.com/miloserdev) · [Telegram](https://t.me/miloserdev)
+[GitHub](https://github.com/miloserdev) · [Telegram](https://t.me/miloserdev) · [HuggingFace](https://huggingface.co/miloserdev)
 
 ## About
 
@@ -107,7 +107,7 @@ _Jun 2020 – Aug 2022 · system administration_
 
 ## Contact
 
-GitHub: [miloserdev](https://github.com/miloserdev) · Telegram: [@miloserdev](https://t.me/miloserdev)
+GitHub: [GitHub](https://github.com/miloserdev) · Telegram: [Telegram](https://t.me/miloserdev) · HuggingFace: [HuggingFace](https://huggingface.co/miloserdev)
 
 ---
 
